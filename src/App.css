@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: rgb(236, 221, 221);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  font-family: 'Courier New', Courier, monospace;
+  color:#f53232;
+  max-width: 1280px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: blanchedalmond url("assets/back.png") no-repeat fixed center;
+  min-height: 600px;
+  min-width: 400px;
+}
+h1 {
+  margin-top: -1rem;
+}
+.btn {
+  padding: 15px 20px;
+  color: wheat;
+  background-color: rgb(250, 77, 77);
+  border: 0;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #f10b0b;
+}
+
+.add {
+  margin: 1rem auto;
+}
+
+#addItemInput {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding: 15px;
+  width: 65%;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+#addItemInput:hover {
+  background-color: beige;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #dba5a5;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 2em;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
